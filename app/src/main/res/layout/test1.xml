@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="89dp">
+
+    <TextView
+        android:id="@+id/tv_grade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Grade"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_grade"
+        app:layout_constraintEnd_toStartOf="@+id/sp_grade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:text="OK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"/>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Comment"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/et_comment"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/et_comment"/>
+
+    <Spinner
+        android:id="@+id/sp_col4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col3"/>
+
+    <Spinner
+        android:id="@+id/sp_col3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col2"/>
+
+    <Spinner
+        android:id="@+id/sp_col6"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col5"/>
+
+    <Spinner
+        android:id="@+id/sp_col5"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col4"/>
+
+    <Spinner
+        android:id="@+id/sp_col8"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col7"/>
+
+    <Spinner
+        android:id="@+id/sp_col7"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col6"/>
+
+    <Spinner
+        android:id="@+id/sp_col10"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col9"/>
+
+    <Spinner
+        android:id="@+id/sp_col9"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col8"/>
+
+    <TextView
+        android:id="@+id/tv_col10"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col10"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col10"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col10"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col9"/>
+
+    <TextView
+        android:id="@+id/tv_col9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col9"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col9"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col9"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col8"/>
+
+    <TextView
+        android:id="@+id/tv_col8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col8"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col8"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col8"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col7"/>
+
+    <TextView
+        android:id="@+id/tv_col7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col7"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col7"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col7"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col6"/>
+
+    <TextView
+        android:id="@+id/tv_col6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col6"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col6"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col6"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col5"/>
+
+    <TextView
+        android:id="@+id/tv_col5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col5"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col5"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col5"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col4"/>
+
+    <TextView
+        android:id="@+id/tv_col4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col4"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col4"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col4"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col3"/>
+
+    <TextView
+        android:id="@+id/tv_col3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col3"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col3"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col3"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col2"/>
+
+    <Spinner
+        android:id="@+id/sp_col2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_col1"/>
+
+    <Spinner
+        android:id="@+id/sp_col1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_col2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Col2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col2"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_col1"/>
+
+    <TextView
+        android:id="@+id/tv_col1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Col1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_col1"
+        app:layout_constraintEnd_toStartOf="@+id/sp_col1"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Spinner
+        android:id="@+id/sp_grade"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_drug2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Drug2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_drug2"
+        app:layout_constraintEnd_toStartOf="@+id/sp_drug2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drug1"/>
+
+    <TextView
+        android:id="@+id/tv_drug4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Drug4"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_drug4"
+        app:layout_constraintEnd_toStartOf="@+id/sp_drug4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drug3"/>
+
+    <TextView
+        android:id="@+id/tv_drug5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Drug5"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_drug5"
+        app:layout_constraintEnd_toStartOf="@+id/sp_drug5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drug4"/>
+
+    <TextView
+        android:id="@+id/tv_drug1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:text="Drug1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_drug1"
+        app:layout_constraintEnd_toStartOf="@+id/sp_drug1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ce"/>
+
+    <TextView
+        android:id="@+id/tv_drug3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Drug3"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_drug3"
+        app:layout_constraintEnd_toStartOf="@+id/sp_drug3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drug2"/>
+
+    <TextView
+        android:id="@+id/tv_ce"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="End Date"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cycle_end_date"
+        app:layout_constraintEnd_toStartOf="@+id/tv_cycle_end_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cs"/>
+
+    <TextView
+        android:id="@+id/tv_cs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Start Date"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cycle_start_date"
+        app:layout_constraintEnd_toStartOf="@+id/tv_cycle_start_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cycle"/>
+
+    <TextView
+        android:id="@+id/tv_ge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="End Date"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_grade_end_date"
+        app:layout_constraintEnd_toStartOf="@+id/tv_grade_end_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_gs"/>
+
+    <TextView
+        android:id="@+id/tv_cycle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Cycle"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_cycle"
+        app:layout_constraintEnd_toStartOf="@+id/sp_cycle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ge"/>
+
+    <TextView
+        android:id="@+id/tv_grade_start_date"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="0000-00-00"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_grade"/>
+
+    <TextView
+        android:id="@+id/tv_grade_end_date"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="0000-00-00"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_grade_start_date"/>
+
+    <TextView
+        android:id="@+id/tv_cycle_start_date"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="0000-00-00"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_cycle"/>
+
+    <TextView
+        android:id="@+id/tv_cycle_end_date"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="0000-00-00"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cycle_start_date"/>
+
+    <TextView
+        android:id="@+id/tv_gs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Start Date"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_grade_start_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_grade"/>
+
+    <Spinner
+        android:id="@+id/sp_drug5"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_drug4"/>
+
+    <Spinner
+        android:id="@+id/sp_drug4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_drug3"/>
+
+    <Spinner
+        android:id="@+id/sp_drug3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_drug2"/>
+
+    <Spinner
+        android:id="@+id/sp_drug2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sp_drug1"/>
+
+    <Spinner
+        android:id="@+id/sp_drug1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cycle_end_date"/>
+
+    <Spinner
+        android:id="@+id/sp_cycle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_grade_end_date"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        />
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="469dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/button_ok"/>
+</android.support.constraint.ConstraintLayout>

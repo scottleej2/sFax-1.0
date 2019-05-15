@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">sfax</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_forgot_password">Forgot Password</string>
+    <string name="desc_sfax_logo">Sfax Logo</string>
+    <string name="title_folder_list">Folders</string>
+    <string name="title_fax_list">Faxes</string>
+    <string name="title_folder_detail">Folder Detail</string>
+    <string name="text_hint_pin">PIN</string>
+    <string name="button_one_time_pin">One time PIN</string>
+    <string name="button_thirty_day_pin">30 day PIN</string>
+    <string name="button_request_pin">Request PIN</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="key_signOut">signOut</string>
+    <string name="title_signOut">Sign out</string>
+    <string name="summary_signOut">Sign out of Sfax and return to the login screen.</string>
+    <string name="key_support">support</string>
+    <string name="title_openSupport">Open support</string>
+    <string name="summary_openSupport">Open the Sfax support page in a web browser.</string>
+    <string name="support_url">http://sfax.scrypt.com/</string>
+
+    <string name="base_api_url">https://mobileapi.sfaxme.com/api/</string>
+    <string name="base_url">https://mobileapi.sfaxme.com/</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+
+
+</resources>

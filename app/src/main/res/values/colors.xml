@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sfax product palette -->
+    <color name="tapestry">#A76389</color>
+    <color name="plum">#893B67</color>
+    <color name="asparagus">#789D4A</color>
+    <color name="fern">#4A773C</color>
+
+    <!-- universal palette -->
+    <color name="silver">#F6F6F6</color>
+    <color name="shuttleGray">#5B6770</color>
+    <color name="midnight">#333f48</color>
+    <color name="blackPearl">#1D252D</color>
+
+    <!-- additional colors -->
+    <color name="darkPlum">#691345</color>
+
+    <!-- holo palette configuration -->
+    <color name="colorPrimary">@color/plum</color>
+    <color name="colorPrimaryDark">@color/darkPlum</color>
+    <color name="colorAccent">@color/asparagus</color>
+</resources>

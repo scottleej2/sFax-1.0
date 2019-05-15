@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Scrypt.Sfax" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Scrypt.Sfax.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Scrypt.Sfax.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Scrypt.Sfax.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Scrypt.Sfax.Text.Large.Inverse" parent="TextAppearance.AppCompat.Large.Inverse"/>
+    <style name="Scrypt.Sfax.Text.Small.Inverse" parent="TextAppearance.AppCompat.Small.Inverse"/>
+    <style name="Scrypt.Sfax.Text.Large" parent="TextAppearance.AppCompat.Large"/>
+    <style name="Scrypt.Sfax.Text.Small" parent="TextAppearance.AppCompat.Small"/>
+
+</resources>
